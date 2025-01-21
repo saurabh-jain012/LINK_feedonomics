@@ -37,7 +37,7 @@ function createInventoryFeedFileName(fileNamePrefix, fileExtension) {
 /**
  * Loads files from a given directory that match the given pattern
  *
- * @param {File} sourceFolder Directory path to load from
+ * @param {string} sourceFolder Directory path to load from
  * @param {string} filePattern RegEx pattern that the filenames must match
  *
  * @returns {Array} files present at source folder
